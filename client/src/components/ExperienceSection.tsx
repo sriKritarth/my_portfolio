@@ -7,25 +7,25 @@ export default function ExperienceSection() {
 
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "Tech Innovation Corp",
-      duration: "2022 - Present",
-      description: "Led development of multiple high-traffic web applications, mentored junior developers, and implemented modern development practices that improved team productivity by 40%.",
-      technologies: ["React", "Node.js", "AWS", "Team Leadership"],
+      title: "AI/ML Project Developer",
+      company: "Personal Projects & Learning",
+      duration: "2023 - Present",
+      description: "Developed multiple AI-powered applications including legal chatbots, resume screening systems, and multi-tool AI interfaces. Specialized in LangChain RAG pipelines and NLP solutions.",
+      technologies: ["LangChain", "Python", "FAISS", "HuggingFace"],
     },
     {
-      title: "Full Stack Developer",
-      company: "Digital Solutions Inc",
-      duration: "2020 - 2022",
-      description: "Developed and maintained scalable web applications serving 100k+ users, optimized database performance, and collaborated with cross-functional teams.",
-      technologies: ["JavaScript", "Express.js", "MongoDB", "REST APIs"],
+      title: "Computer Science Student",
+      company: "MAKAUT, West Bengal",
+      duration: "Aug 2023 - Jun 2027",
+      description: "Pursuing B.Tech in Computer Science Engineering with current CGPA of 8.09. Focus on AI, Machine Learning, Data Structures, Algorithms, and software engineering principles.",
+      technologies: ["Python", "C++", "Data Structures", "Algorithms"],
     },
     {
-      title: "Frontend Developer",
-      company: "Creative Web Studio",
-      duration: "2019 - 2020",
-      description: "Built responsive websites and web applications using modern frontend frameworks, worked closely with designers to implement pixel-perfect UI/UX designs.",
-      technologies: ["HTML/CSS", "Vue.js", "SASS", "UI/UX"],
+      title: "Open Source Contributor",
+      company: "GitHub & Community Projects",
+      duration: "2023 - Present",
+      description: "Active contributor to AI and ML projects, building innovative solutions using modern frameworks and sharing knowledge through code repositories.",
+      technologies: ["Flask", "Streamlit", "Gradio", "GitHub"],
     },
   ];
 

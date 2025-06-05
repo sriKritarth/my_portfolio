@@ -6,10 +6,10 @@ export default function EducationSection() {
   const { ref: cardsRef, isVisible: cardsVisible } = useScrollAnimation();
 
   const certifications = [
-    { name: "AWS Certified Developer", year: "2023" },
-    { name: "Google Cloud Professional", year: "2022" },
-    { name: "React Developer Certification", year: "2021" },
-    { name: "MongoDB Certified Developer", year: "2021" },
+    { name: "LangChain Expert", year: "2024" },
+    { name: "Machine Learning Fundamentals", year: "2024" },
+    { name: "NLP Specialization", year: "2023" },
+    { name: "Python Programming", year: "2023" },
   ];
 
   return (
@@ -40,12 +40,12 @@ export default function EducationSection() {
             <div className="text-primary text-3xl mb-4">
               <GraduationCap />
             </div>
-            <h3 className="text-xl font-bold text-slate-800 mb-2">Bachelor of Computer Science</h3>
-            <h4 className="text-lg text-slate-600 mb-2">University of Technology</h4>
-            <p className="text-primary font-medium mb-4">2015 - 2019</p>
+            <h3 className="text-xl font-bold text-slate-800 mb-2">B.Tech in Computer Science Engineering</h3>
+            <h4 className="text-lg text-slate-600 mb-2">MAKAUT, West Bengal</h4>
+            <p className="text-primary font-medium mb-4">Aug 2023 - Jun 2027</p>
             <p className="text-slate-600">
-              Focused on software engineering, data structures, algorithms, and web development.
-              Graduated with honors and received the Outstanding Student Award.
+              Currently pursuing with CGPA: 8.09. Focused on AI, Machine Learning, Data Structures, 
+              Algorithms, and software engineering principles with specialization in Generative AI.
             </p>
           </div>
 

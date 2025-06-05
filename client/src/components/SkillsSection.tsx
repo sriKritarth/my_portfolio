@@ -1,4 +1,4 @@
-import { Code, Server, Settings } from "lucide-react";
+import { Brain, Code, Database } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 export default function SkillsSection() {
@@ -7,33 +7,33 @@ export default function SkillsSection() {
 
   const skills = [
     {
+      icon: Brain,
+      title: "AI & Machine Learning",
+      skills: [
+        { name: "LangChain", level: "Advanced" },
+        { name: "NLP", level: "Advanced" },
+        { name: "RAG Pipelines", level: "Advanced" },
+        { name: "HuggingFace", level: "Intermediate" },
+      ],
+    },
+    {
       icon: Code,
-      title: "Frontend Development",
+      title: "Programming Languages",
       skills: [
-        { name: "React.js", level: "Advanced" },
-        { name: "TypeScript", level: "Advanced" },
-        { name: "Tailwind CSS", level: "Expert" },
-        { name: "Next.js", level: "Advanced" },
+        { name: "Python", level: "Expert" },
+        { name: "C++", level: "Advanced" },
+        { name: "C", level: "Intermediate" },
+        { name: "JavaScript", level: "Intermediate" },
       ],
     },
     {
-      icon: Server,
-      title: "Backend Development",
+      icon: Database,
+      title: "Frameworks & Tools",
       skills: [
-        { name: "Node.js", level: "Advanced" },
-        { name: "Express.js", level: "Advanced" },
-        { name: "MongoDB", level: "Intermediate" },
-        { name: "PostgreSQL", level: "Intermediate" },
-      ],
-    },
-    {
-      icon: Settings,
-      title: "Tools & DevOps",
-      skills: [
-        { name: "Git & GitHub", level: "Expert" },
-        { name: "Docker", level: "Intermediate" },
-        { name: "AWS", level: "Intermediate" },
-        { name: "Vercel", level: "Advanced" },
+        { name: "Flask", level: "Advanced" },
+        { name: "Streamlit", level: "Advanced" },
+        { name: "FAISS", level: "Intermediate" },
+        { name: "Gradio", level: "Intermediate" },
       ],
     },
   ];

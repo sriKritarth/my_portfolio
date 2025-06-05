@@ -31,14 +31,14 @@ export default function HeroSection() {
             }`}
           >
             <h1 className="text-5xl lg:text-6xl font-bold text-slate-800 mb-6">
-              Hi, I'm <span className="text-primary">Your Name</span>
+              Hi, I'm <span className="text-primary">Kritarth Srivastava</span>
             </h1>
             <h2 className="text-2xl lg:text-3xl text-slate-600 mb-6">
-              Full Stack Developer
+              Generative AI Engineer
             </h2>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-              I create modern, responsive web applications with a focus on user experience and clean code.
-              Passionate about turning complex problems into simple, beautiful solutions.
+              Computer Science Engineering student specializing in AI, Machine Learning, and NLP. 
+              I build intelligent systems using LangChain, RAG pipelines, and modern web technologies.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button

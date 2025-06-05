@@ -48,7 +48,7 @@ export default function Navigation() {
               onClick={() => scrollToSection("home")}
               className="text-xl font-bold text-slate-800 hover:text-primary transition-colors"
             >
-              Your Name
+              Kritarth Srivastava
             </button>
           </div>
 
