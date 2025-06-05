@@ -51,7 +51,7 @@ app.use((req, res, next) => {
   if (app.get("env") === "development") {
     await setupVite(app, server);
   } else {
-    const publicPath = path.resolve(process.cwd(), "dist", "public");
+    const publicPath = path.resolve(process.cwd(), "dist");
     app.use(express.static(publicPath));
     
     app.get("*", (req, res, next) => {
