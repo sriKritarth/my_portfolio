@@ -1,4 +1,5 @@
 import { users, contactMessages, type User, type InsertUser, type ContactMessage, type InsertContactMessage } from "@shared/schema";
+import { DbStorage } from './db';
 
 export interface IStorage {
   getUser(id: number): Promise<User | undefined>;
@@ -56,4 +57,4 @@ export class MemStorage implements IStorage {
   }
 }
 
-export const storage = new MemStorage();
+export const storage = new DbStorage();
