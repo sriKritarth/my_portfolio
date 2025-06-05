@@ -29,8 +29,8 @@ export default function AboutSection() {
             }`}
           >
             <img
-              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-              alt="Modern web development environment with code on screen"
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+              alt="AI brain and neural network concept visualization"
               className="rounded-2xl shadow-lg"
             />
           </div>

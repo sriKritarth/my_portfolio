@@ -15,8 +15,8 @@ export default function HeroSection() {
     <section id="home" className="pt-16 min-h-screen flex items-center relative overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080"
-          alt="Modern professional workspace"
+          src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080"
+          alt="AI and machine learning technology background"
           className="w-full h-full object-cover opacity-10"
         />
       </div>
@@ -60,8 +60,8 @@ export default function HeroSection() {
           </div>
           <div className="lg:text-right">
             <img
-              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-              alt="Professional developer workspace with multiple monitors"
+              src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+              alt="AI neural network and machine learning visualization"
               className="rounded-2xl shadow-2xl"
             />
           </div>
