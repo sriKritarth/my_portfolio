@@ -12,10 +12,10 @@ export default function Footer() {
   };
 
   const socialLinks = [
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Mail, href: "mailto:your.email@example.com", label: "Email" },
+    { icon: Linkedin, href: "https://linkedin.com/in/kritarth", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/sriKritarth", label: "GitHub" },
+    { icon: Twitter, href: "https://leetcode.com/sriKritarth", label: "LeetCode" },
+    { icon: Mail, href: "mailto:oftheleaf.hidden@gmail.com", label: "Email" },
   ];
 
   const quickLinks = [
@@ -27,11 +27,11 @@ export default function Footer() {
   ];
 
   const services = [
-    "Web Development",
-    "Frontend Development", 
-    "Backend Development",
-    "API Integration",
-    "Performance Optimization",
+    "AI Chatbot Development",
+    "RAG Pipeline Implementation", 
+    "NLP Solutions",
+    "Machine Learning Models",
+    "Generative AI Applications",
   ];
 
   return (
@@ -39,10 +39,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Your Name</h3>
+            <h3 className="text-xl font-bold mb-4">Kritarth Srivastava</h3>
             <p className="text-slate-300 mb-4">
-              Full Stack Developer passionate about creating exceptional digital experiences
-              and solving complex problems with elegant solutions.
+              Generative AI Engineer passionate about creating intelligent systems
+              and solving complex problems with AI-powered solutions.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (
@@ -89,7 +89,7 @@ export default function Footer() {
 
         <div className="border-t border-slate-700 mt-8 pt-8 text-center">
           <p className="text-slate-300">
-            © {currentYear} Your Name. All rights reserved.
+            © {currentYear} Kritarth Srivastava. All rights reserved.
           </p>
         </div>
       </div>
