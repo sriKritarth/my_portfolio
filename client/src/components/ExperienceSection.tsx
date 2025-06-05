@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import { Linkedin } from "lucide-react";
 
 export default function ExperienceSection() {
   const { ref: titleRef, isVisible: titleVisible } = useScrollAnimation();
@@ -7,26 +8,31 @@ export default function ExperienceSection() {
 
   const experiences = [
     {
-      title: "AI/ML Project Developer",
-      company: "Personal Projects & Learning",
+      title: "Generative AI Developer",
+      company: "Personal Projects & Research",
       duration: "2023 - Present",
-      description: "Developed multiple AI-powered applications including legal chatbots, resume screening systems, and multi-tool AI interfaces. Specialized in LangChain RAG pipelines and NLP solutions.",
-      technologies: ["LangChain", "Python", "FAISS", "HuggingFace"],
+      description: "Specialized in Large Language Models and Generative AI applications. Built advanced RAG systems with vector databases for legal document analysis. Implemented custom LLM fine-tuning pipelines and prompt engineering frameworks. Developed context-aware AI assistants with multi-modal capabilities.",
+      technologies: ["LLMs", "GPT Models", "RAG", "Prompt Engineering", "Vector DBs"],
+    },
+    {
+      title: "AI Research & Innovation",
+      company: "Independent Projects",
+      duration: "2023 - Present",
+      description: "Led research in generative AI applications focusing on text-to-text and text-to-image models. Developed custom training pipelines for domain-specific LLMs. Implemented efficient retrieval systems using FAISS and ChromaDB. Created AI agents with autonomous reasoning capabilities.",
+      technologies: ["LangChain", "Stable Diffusion", "ChromaDB", "FAISS", "Transformers"],
     },
     {
       title: "Computer Science Student",
       company: "MAKAUT, West Bengal",
       duration: "Aug 2023 - Jun 2027",
-      description: "Pursuing B.Tech in Computer Science Engineering with current CGPA of 8.09. Focus on AI, Machine Learning, Data Structures, Algorithms, and software engineering principles.",
-      technologies: ["Python", "C++", "Data Structures", "Algorithms"],
-    },
-    {
-      title: "Open Source Contributor",
-      company: "GitHub & Community Projects",
-      duration: "2023 - Present",
-      description: "Active contributor to AI and ML projects, building innovative solutions using modern frameworks and sharing knowledge through code repositories.",
-      technologies: ["Flask", "Streamlit", "Gradio", "GitHub"],
-    },
+      description: "Pursuing B.Tech with specialization in AI and Deep Learning. Conducted research on transformer architectures and attention mechanisms. Implemented various generative models including text generation and image synthesis systems. Current CGPA: 8.09",
+      technologies: ["Deep Learning", "Neural Networks", "Transformer Models", "PyTorch"],
+    }
+  ];
+
+  const socialLinks = [
+    { icon: Linkedin, href: "https://linkedin.com/in/kritarth", label: "LinkedIn" },
+    // ...
   ];
 
   return (
@@ -40,9 +46,9 @@ export default function ExperienceSection() {
               : "opacity-0 translate-y-8"
           }`}
         >
-          <h2 className="text-4xl font-bold text-slate-800 mb-4">Work Experience</h2>
+          <h2 className="text-4xl font-bold text-slate-800 mb-4">AI Experience & Education</h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            My professional journey in building exceptional digital experiences.
+            My journey in artificial intelligence and Generative AI innovation.
           </p>
         </div>
 
@@ -61,13 +67,13 @@ export default function ExperienceSection() {
                 style={{ transitionDelay: `${index * 300}ms` }}
               >
                 <div className="absolute left-6 w-4 h-4 bg-primary rounded-full border-4 border-white shadow-lg"></div>
-                <div className="ml-20 bg-white rounded-xl p-8 shadow-lg w-full">
+                <div className="ml-20 bg-white rounded-xl p-8 shadow-lg w-full hover:shadow-xl transition-shadow duration-300">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                     <h3 className="text-xl font-bold text-slate-800">{exp.title}</h3>
                     <span className="text-primary font-medium">{exp.duration}</span>
                   </div>
                   <h4 className="text-lg text-slate-600 mb-4">{exp.company}</h4>
-                  <p className="text-slate-600 mb-4">{exp.description}</p>
+                  <p className="text-slate-600 mb-4 leading-relaxed">{exp.description}</p>
                   <div className="flex flex-wrap gap-2">
                     {exp.technologies.map((tech) => (
                       <Badge key={tech} variant="secondary" className="bg-primary/10 text-primary">

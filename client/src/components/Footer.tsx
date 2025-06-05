@@ -12,7 +12,7 @@ export default function Footer() {
   };
 
   const socialLinks = [
-    { icon: Linkedin, href: "https://linkedin.com/in/kritarth", label: "LinkedIn" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/kritarth-srivastava-44a22a302/", label: "LinkedIn" },
     { icon: Github, href: "https://github.com/sriKritarth", label: "GitHub" },
     { icon: Twitter, href: "https://leetcode.com/sriKritarth", label: "LeetCode" },
     { icon: Mail, href: "mailto:oftheleaf.hidden@gmail.com", label: "Email" },
@@ -53,7 +53,7 @@ export default function Footer() {
                   className="text-slate-300 hover:text-white hover:bg-slate-700"
                   asChild
                 >
-                  <a href={social.href} aria-label={social.label}>
+                  <a href={social.href} target="_blank" rel="noopener noreferrer" aria-label={social.label}>
                     <social.icon className="w-5 h-5" />
                   </a>
                 </Button>
